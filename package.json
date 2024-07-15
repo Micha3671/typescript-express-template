@@ -1,7 +1,7 @@
 {
   "name": "typescript-express-template",
   "version": "1.0.0",
-  "description": "",
+  "description": "1. `npm init`\r 2. `npm i -D typescript ts-node nodemon`\r 3. `npm install body-parser cors dotenv express http-status-codes mysql2 sequelize`\r 4. `tsconfig.json` anlegen:",
   "main": "index.js",
   "scripts": {
     "test": "DOTENV_CONFIG_PATH=.test.env jest",
@@ -10,7 +10,7 @@
     "lint": "eslint 'src/**/*.{ts,tsx}'",
     "lint:fix": "eslint 'src/**/*.{ts,tsx}' --fix"
   },
-  "author": "",
+  "author": "Micha",
   "license": "ISC",
   "devDependencies": {
     "@types/cors": "^2.8.17",
